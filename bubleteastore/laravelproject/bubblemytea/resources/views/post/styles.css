@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Figtree', sans-serif;
+    background-color: #fbd38d;
+    /* Set your desired background color */
+}
+
+/* Navigation Bar Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fcd34d;
+    /* Set your desired navigation bar color */
+}
+
+nav img {
+    height: 3rem;
+    /* Set your desired logo height */
+}
+
+nav a {
+    color: #7d5c00;
+    /* Set your desired link color */
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+/* Content Section Styles */
+.content {
+    text-align: center;
+    padding: 4rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #7d5c00;
+    /* Set your desired title color */
+    margin-bottom: 1rem;
+}
+
+.order-button {
+    background-color: #ff5722;
+    /* Set your desired button color */
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.order-button:hover {
+    background-color: #e64a19;
+    /* Set your desired button hover color */
+}
+
+/* Bubbles Animation */
+.bubble {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    animation: float 3s infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
